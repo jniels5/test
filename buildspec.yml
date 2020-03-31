@@ -15,3 +15,15 @@ phases:
 
       # Install runtime dependencies
       - npm install --production
+artifacts:
+  type: zip
+  files:
+    - README.md
+    - package.json
+    - app.js
+    - buildspec.yml
+    - bin/*
+    - node_modules/**/*
+    - public/*
+    - routes/*
+    - views/*
